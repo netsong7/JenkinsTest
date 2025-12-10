@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.domain.Employee;
 import com.example.demo.service.EmployeeService;
-
+ 
 @RestController
 @RequestMapping("/api/v1/")
 @CrossOrigin()
@@ -20,7 +20,7 @@ class EmployeeController {
 
 	@GetMapping("/")
     public String getIndex() {
-        return "<h1>안녕하세요</h1> 수정했습니다";
+        return "<h1>안녕하세요</h1>;
     }
 	
     @GetMapping("/employees")
